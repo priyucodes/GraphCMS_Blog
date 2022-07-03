@@ -44,6 +44,7 @@ const PostDetail = ({ post }) => {
         );
       case 'image':
         return (
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             key={index}
             alt={obj.title}
